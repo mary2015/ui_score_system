@@ -16,6 +16,6 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     pytest.main(['-v', '--alluredir', './allure-result', './cases', '--clean-alluredir'])
-    os.system('/opt/homebrew/bin/allure generate ./allure-result/ - o ./allure-report/ --clean')
+    os.system('/opt/homebrew/bin/allure generate ./allure-result/ -o ./allure-report/ --clean')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
